@@ -1,0 +1,9 @@
+{
+  "name": "ng-pivot",
+  "version": "0.0.1",
+  "main": [],
+  "ignore": [],
+  "dependencies": {
+    "angularjs": "~1.3.12"
+  }
+}
