@@ -1,0 +1,30 @@
+{
+  "name": "ngTable",
+  "version": "1.0.0",
+  "description": "## Instalación desde Bower     bower install --save ng-ghsec-table",
+  "main": "ngGreenHsecTableDirective.js",
+  "dependencies": {
+    "grunt-angular-templates": "^0.5.7"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.11.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Angularjschile/ngGHSECTable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angularjschile/ngGHSECTable/issues"
+  },
+  "homepage": "https://github.com/Angularjschile/ngGHSECTable"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="demo" ng-controller="demoCtrl">
+<ul ng-sortable="{animation:150,group: 'foobar'}">
+    <li ng-repeat="item in items">
+        {{item.text}}
+    </li>
+</ul>
+<p>otro</p>
+<ul ng-sortable="barConfig" class="block__list block__list_tags">
+    <li ng-repeat="item in bar">{{item.text}}</li>
+</ul>
+
+<ng-pivot model="items"></ng-pivot>
+
+
+<script src="../bower_components/Sortable/Sortable.min.js"></script>
+<script src="../bower_components/angularjs/angular.js"></script>
+<script src="../dist/ngPivot.js"></script>
+<link rel="stylesheet" href="../dist/ngPivot.min.css"/>
+<script src="demoCtrl.js"></script>
+</body>
+</html>

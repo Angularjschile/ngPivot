@@ -4,6 +4,7 @@
   "main": [],
   "ignore": [],
   "dependencies": {
-    "angularjs": "~1.3.12"
+    "angularjs": "~1.3.12",
+    "Sortable": "~1.0.1"
   }
 }
